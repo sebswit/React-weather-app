@@ -20,7 +20,9 @@ p {
 }
 h1 {
  font-size: 6rem;
-
+}
+h2{
+  font-size: 2.5rem;
 }
 .app {
   width: 100%;
@@ -39,6 +41,23 @@ top: 0;
 left: 0;
 z-index: -1;
 }
+.search{
+  text-align: center;
+  padding: 1rem;
+}
+.app input{
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+::placeholder{
+  color:#fff;
+  text-align: center;
+}
+
 .container {
   max-width: 700px;
   height: 700px;
@@ -53,12 +72,11 @@ z-index: -1;
 .top{
   width: 100%;
   margin: 1rem auto;
+  text-align: center;
 }
 .description{
-  position: relative;
-  right: -90%;
-  transform-origin: 0 0;
-  transform: rotate(270deg);
+  position: relative;  
+  
 }
 .bottom {
   display: flex;
